@@ -3,11 +3,11 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>HousePricePrediction</title>
+    <title>CondoPricePrediction</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
     <style>
       body {
-        background-color: #FFF5EE;
+        background-color: #ECF3F9;
       }
     </style>
   </head>
@@ -18,9 +18,9 @@
         <div class="column is-half">
           <div class="card">
             <div class="card-content">
-              <div class="title has-text-centered"><img src="https://img.freepik.com/free-vector/cabin-concept-illustration_114360-4925.jpg?w=740&t=st=1668146986~exp=1668147586~hmac=43e4375362e7d409db9036223ff73a98b073df30d094b72ba786799b33b82b8f" alt="" width="300" height="300"></div>
-              <div class="title is-2 has-text-centered">Luzon House Price Prediction</div>
-              <div class="subtitle has-text-centered">Predict house prices in Luzon using the following!</div>
+              <div class="title has-text-centered"><img src="https://img.freepik.com/free-vector/many-office-buildings-city_1308-35976.jpg?w=1060&t=st=1668421345~exp=1668421945~hmac=988dbdd6f93853a8f55487e5ed2bcab1a201ff0d81d7e7d11ff705bb1a8d9b26" alt="" width="400" height="400"></div>
+              <div class="title is-2 has-text-centered">PH Condo Price Prediction</div>
+              <div class="subtitle has-text-centered">Predict condo prices in the Philippines using the following!</div>
               <form action="{{url_for('resultPage')}}" method="POST">
                 <div class="field">
                   <label class="label">No. of bedrooms</label>
@@ -44,15 +44,17 @@
                   <label class="label">Location</label>
                   <div class="select">
                     <select name="d">
-                      <option value="1">Batangas</option>
-                      <option value="2">Bulacan</option>
-                      <option value="3">Cavite</option>
-                      <option value="4">Laguna</option>
-                      <option value="5">Metro Manila</option>
-                      <option value="6">Pampanga</option>
-                      <option value="7">Quezon</option>
-                      <option value="8">Rizal</option>
-                      <option value="9">Others</option>
+                      <option value="1">Region III</option>
+                      <option value="2">Region IV-A</option>
+                      <option value="3">Region VII</option>
+                      <option value="4">Makati</option>
+                      <option value="5">Mandaluyong</option>
+                      <option value="6">Muntinlupa</option>
+                      <option value="7">Quezon City</option>
+                      <option value="8">Taguig</option>
+                      <option value="9">Other NCR Location</option>
+                      <option value="10">Other City/Province</option>
+
                     </select>
                   </div>
                 </div>

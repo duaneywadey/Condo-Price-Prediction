@@ -1,9 +1,6 @@
-# House-Price-Prediction
+# Condo-Price-Prediction
 A webapp that can predict house prices based on no. of rooms and square meters. 
 
-![image](https://user-images.githubusercontent.com/88537860/201334399-c7f566f3-a4cc-4ff9-b581-2596baf8158a.png)
-
-![image](https://user-images.githubusercontent.com/88537860/201334729-bd87aadf-596f-4726-965d-fef864fd91ad.png)
 
 # Instructions
 How to run this project? 
